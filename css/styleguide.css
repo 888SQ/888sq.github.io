@@ -1,4 +1,4 @@
-:root { 
+:root {
   --bg1: #ffffff;
   --black: #000000;
   --g-0: #ffffff;
@@ -12,16 +12,17 @@
   --text: #ffffff;
   --white: #ffffff0d;
   --yellow: #efb643;
- 
+
   --font-size-l: 40px;
   --font-size-m: 18px;
   --font-size-s: 14px;
   --font-size-xs: 13px;
- 
+
   --font-family-pingfang_sc-medium: "PingFang SC-Medium", Helvetica;
   --font-family-pingfang_sc-regular: "PingFang SC-Regular", Helvetica;
   --font-family-pingfang_sc-semibold: "PingFang SC-Semibold", Helvetica;
 }
+
 .pingfangsc-medium-rose-18px {
   color: var(--p-blue);
   font-family: var(--font-family-pingfang_sc-medium);

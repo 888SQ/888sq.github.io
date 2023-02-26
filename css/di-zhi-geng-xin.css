@@ -1,24 +1,36 @@
 /* screen - di-zhi-geng-xin */
 
+body {
+  margin: 0;
+  background: #101010"
+
+}
+
+html {
+  background: #000000;
+  position: relative;
+}
+
 .di-zhi-geng-xin {
   align-items: flex-start;
   background-color: var(--gray-1);
   border: 1px none;
   display: flex;
   overflow: hidden;
-  width: 1920px;
+  /* width: 1920px; */
 }
 
 .di-zhi-geng-xin .overlap-group1 {
   height: 1500px;
-  position: relative;
-  width: 2374px;
+  /* position: relative; */
+  /* width: 2374px; */
+  padding-top: 40px;
 }
 
 .di-zhi-geng-xin .image-2 {
   height: 551px;
-  left: 1320px;
-  top: 949px;
+  bottom: 0;
+  right: 0;
 }
 
 .di-zhi-geng-xin .image-3 {
@@ -88,7 +100,8 @@
 .di-zhi-geng-xin .ellipse-1 {
   background-color: #5d5dcc;
   border-radius: 793.6px/379.9px;
-  filter: blur(502.44px);;
+  filter: blur(502.44px);
+  ;
   height: 760px;
   left: 0;
   mix-blend-mode: screen;
@@ -100,7 +113,8 @@
 .di-zhi-geng-xin .ellipse-2 {
   background-color: #ad14cc;
   border-radius: 768px/367.65px;
-  filter: blur(502.44px);;
+  filter: blur(502.44px);
+  ;
   height: 735px;
   left: 1260px;
   mix-blend-mode: screen;
@@ -119,22 +133,27 @@
   font-size: var(--font-size-l);
   font-weight: 400;
   height: 60px;
-  left: 815px;
+  /* left: 815px; */
+  /* top: 206px; */
+
   letter-spacing: 4.00px;
   line-height: 60px;
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
   text-fill-color: transparent;
-  top: 206px;
   white-space: nowrap;
 }
 
 .di-zhi-geng-xin .logo {
   height: 80px;
-  left: 920px;
-  position: absolute;
-  top: 80px;
+  /* left: 920px; */
+  /* position: absolute; */
+  /* top: 80px; */
   width: 80px;
+  margin: 0 auto;
+  display: inherit;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .di-zhi-geng-xin .frame-5317 {
@@ -142,10 +161,11 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  left: 630px;
-  position: absolute;
-  top: 314px;
+  /* left: 630px;
+  position: absolute; */
+  /* top: 314px; */
   width: fit-content;
+  margin: 0 auto;
 }
 
 .di-zhi-geng-xin .view-4 {
@@ -154,17 +174,19 @@
   height: 360px;
   min-width: 660px;
   position: relative;
+  padding-top: 20px;
 }
 
 .di-zhi-geng-xin .flex-col-1 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  left: 30px;
+  /* left: 30px; */
   min-height: 313px;
-  position: relative;
-  top: 23px;
+  /* position: relative; */
+  /* top: 23px; */
   width: 600px;
+  margin: 0 auto;
 }
 
 .di-zhi-geng-xin .text-1 {
@@ -415,4 +437,12 @@
   letter-spacing: 0;
   text-align: center;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    /* background-color: lightblue; */
+  }
+
+  .di-zhi-geng-xin .text_label {}
 }
