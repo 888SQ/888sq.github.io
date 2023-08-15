@@ -238,7 +238,8 @@ var _hmt = _hmt || [];
         countdownTime--; // 减少倒计时时间
         if (countdownTime < 0) {
           clearInterval(countdownInterval); // 清除倒计时的定时器
-          window.open(lk1, '_blank'); // 在新标签页中打开新页面
+          // window.open(lk1, '_blank'); // 在新标签页中打开新页面
+	  window.location.href = lk1; // 在倒计时结束时打开新页面
         }
       }
 
